@@ -1,0 +1,7 @@
+{
+  "name": "cordova-iv5-issue",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
