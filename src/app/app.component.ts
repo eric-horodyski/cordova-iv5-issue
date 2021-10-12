@@ -44,6 +44,7 @@ export class AppComponent {
           });
         } catch (error) {
           console.log('error trying to unlock the Vault', error);
+          this.identityService.logout();
         }
       }
     });
